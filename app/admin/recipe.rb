@@ -1,4 +1,5 @@
 ActiveAdmin.register Recipe do
+  permit_params :name, :description, :instructions
 
 
   # See permitted parameters documentation:
